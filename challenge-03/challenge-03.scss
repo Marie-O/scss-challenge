@@ -1,0 +1,23 @@
+%borderInfo {border: 1px solid #000;
+border-radius: 10px;
+}
+
+.container {
+    @extend %borderInfo;
+    width: 1280px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.wrapper {
+    @extend %borderInfo;
+    float: left;
+    position: relative;
+}
+
+.item {
+    @extend %borderInfo;
+    font-size: 14px;
+    font-family: "Sans Pro", sans-serif;
+    font-weight: 700;
+}

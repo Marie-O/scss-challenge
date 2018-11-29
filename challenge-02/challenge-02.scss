@@ -1,0 +1,9 @@
+$background-colors: #aaa, #bbb, #ccc, #ddd;
+$i: 1;
+
+@each $container in $background-colors {
+    .container-#{$i} {
+        background-color: $container;
+    }
+    $i: $i + 1;
+}
